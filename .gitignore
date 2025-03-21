@@ -1,0 +1,21 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# MacOS 目录下的特定文件夹
+MacOS/git/
+MacOS/node/
+MacOS/python/
+MacOS/uv/
+
+# Windows 目录下的特定文件夹
+Windows/git/
+Windows/node/
+Windows/python/
+Windows/uv/
+
+# IDE 和编辑器文件
+.idea/
+.vscode/
+*.swp
+*~ 
