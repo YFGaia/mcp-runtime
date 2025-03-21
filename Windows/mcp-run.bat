@@ -1,0 +1,6 @@
+@echo off
+set MCP_RUNTIME_PATH=%~dp0
+set PATH=%MCP_RUNTIME_PATH%python;%MCP_RUNTIME_PATH%python\Scripts;%MCP_RUNTIME_PATH%node;%MCP_RUNTIME_PATH%git\cmd;%MCP_RUNTIME_PATH%uv;%PATH%
+set UV_PYTHON=%MCP_RUNTIME_PATH%python\python.exe
+set GIT_PYTHON_GIT_EXECUTABLE=%MCP_RUNTIME_PATH%git\git.exe
+%*
